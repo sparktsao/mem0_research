@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mem0-research"
+version = "0.1.0"
+description = ""
+authors = ["spark <linhots.tsao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mem0ai = {path = "../mem0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
